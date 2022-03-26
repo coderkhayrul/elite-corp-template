@@ -1,0 +1,161 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Portfolio Personal Website
+	Template URL: http://www.abm.com
+	Description: Personal Website
+	Author: Md. Majidul Islam
+	Author URL: http://www.ab-majid.info
+	License: GNU General Public 
+	Version: 2020.0.1
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul {
+	margin: 0;
+	text-decoration: none;
+}
+
+p {
+	color: #848789;
+	line-height: 30px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.bg-main {
+	background-color: #916C02;
+}
+
+.text-main {
+	color: #916C02;
+}
+
+.main-nav img {
+	width: 80%;
+}
+
+/************ Top Bar ************/
+.top-bar {
+	background-color: rgba(249, 248, 243, 1);
+	padding-right: 75px;
+
+}
+
+/* Nav Bar */
+.nav-text {
+	color: black;
+}
+
+.nav-text:hover {
+	color: #916C02;
+	border-bottom: #916C02 solid 2px;
+}
+/* Slider Style */
+.carousel-inner{
+	height: 600px;
+}
+.carousel-item img{
+	height: 600px;
+	width: 100%;
+}
+.carousel-item{
+	position: relative;
+}
+.carousel-item::after{
+	content: "";
+	display: block;
+	clear: both;
+	background: rgba(197, 136, 5, 0.377);
+	position:absolute;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom: 0;
+}
+.carousel-indicators > li {
+	height:10px;
+	width:10px;
+	border-radius: 50%;
+}
+/* Slider Style End */
+
+/* Service Style */
+.service-bg{
+	height: 50px;
+	width:50px;
+	background-color: rgba(249, 248, 243, 1);
+	border:#916b028c solid 2px;
+	
+}
+/* Service Style End */
+
+/* Feature Works Style */
+.works{
+	width: 50%;
+}
+.work-slide-left:hover{
+	background-color: #ffc107;
+	color: white;
+}
+
+.work-slide-right:hover{
+	background-color: #ffc107;
+	color: white;
+}
+.work-slider img{
+	width: 30%;
+}
+/* Feature Works Style End */
+/* Blog Style */
+.blog img{
+	width: 100%;
+}
+.blog .blog-header{
+	width: 50%;
+}
+.contact img{
+	width: 60%;
+}
+.contact-form input{
+	background-color:rgb(250, 235, 215);
+}
+.contact-form textarea{
+	background-color:antiquewhite;
+}
+/* Contact Form Style  End  */
+
+/* Footer Style */
+.footer{
+	background-color: rgba(226, 188, 138, 0.4);
+}
+.footer-menu{
+	margin-right: 115px;
+}
+.footer img{
+	padding-bottom: 6px;
+	width: 30%;
+}
