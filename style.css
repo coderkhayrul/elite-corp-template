@@ -60,7 +60,7 @@ body {
 
 /************ Top Bar ************/
 .top-bar {
-	background-color: rgba(249, 248, 243, 1);
+	background-color: rgb(250, 249, 242);
 	padding-right: 75px;
 
 }
@@ -69,10 +69,16 @@ body {
 .nav-text {
 	color: black;
 }
+.nav-text {
+	color: #bb8a05 !important;
+	border-bottom: #bd8b03 solid 1px;
+	margin: 0;
+}
 
-.nav-text:hover {
-	color: #916C02;
-	border-bottom: #916C02 solid 2px;
+.nav-link:hover{
+	color: #bb8a05 !important;
+	border-bottom: #bd8b03 solid 1px;
+	margin: 0;
 }
 /* Slider Style */
 .carousel-inner{
@@ -150,7 +156,7 @@ body {
 
 /* Footer Style */
 .footer{
-	background-color: rgba(226, 188, 138, 0.4);
+	background-color: rgb(247, 232, 202);
 }
 .footer-menu{
 	margin-right: 115px;
@@ -158,4 +164,7 @@ body {
 .footer img{
 	padding-bottom: 6px;
 	width: 30%;
+}
+.footer-color{
+	background-color: rgb(189, 163, 77);
 }
