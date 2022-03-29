@@ -1,17 +1,4 @@
 /* All Device Responsive  */
-/* @media all and (max-width: 1600px) {
-    .top-bar ul {
-        padding-right: 0px !important;
-        padding-right: 0px !important;;
-    }
-    .top-bar ul li{
-        padding-right: 8px !important;
-    }
-    .navbar-nav{
-        display: flex;
-        justify-content: center;
-    }
-    .navbar-nav ul{
-        margin: 0 !important;
-    }
-} */
+@media all and (max-width: 1600px) {
+
+}
